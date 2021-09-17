@@ -12,7 +12,7 @@ public class LevelzConfig implements ConfigData {
     public int maxLevel = 20;
     @ConfigEntry.Category("level_setting")
     @Comment("Applies if bonus chest world setting is enabled")
-    public int startPoints = 5;
+    public int startPoints = 10;
     @ConfigEntry.Category("level_setting")
     @Comment("If true will reset stats on death")
     public boolean hardMode = false;
